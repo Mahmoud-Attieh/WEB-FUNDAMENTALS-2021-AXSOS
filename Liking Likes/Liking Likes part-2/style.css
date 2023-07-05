@@ -1,0 +1,165 @@
+*{
+
+}
+.container{
+    width: 650px;
+    margin: auto;
+}
+.top{
+    background-color: black;
+    height: 55px;
+}
+.title{
+    color: white;
+    font-family: Comic Sans MS;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.ur-feed{
+    color: black;
+    font-family:Apple Braille ;
+    text-align: center;
+}
+.under-all{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.neil-m{
+    border: solid;
+    border-color: black;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.nichole-k{
+    border: solid;
+    border-color: black;
+    height: 66%;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.jim-r{
+    border: solid;
+    border-color: black;
+    height: 66%;
+    width: 400px;
+}
+.under-left{
+    border: solid;
+    border-color: black;
+    width: 150px;
+    height: fit-content;
+    font-family: Courier New ;
+}
+.add{
+    padding-left: 10px;
+    font-family: Ayuthaya;
+    font-size: 15px;
+    color: color(srgb 0 0.2912 0.5613);
+}
+.img{
+    height: 110px;
+    width: 70%;
+    padding-left: 15px;
+}
+.name{
+    padding-left: 10px;
+    font-size: 20px;
+}
+.top-neil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-neil{
+    margin-left: 10px;
+}
+.likes-neil{
+    font-family: Chalkboard;
+}
+.btn-neil{
+    margin-right: 8px;
+    font-family:Chalkboard;
+    background-color: color(srgb 0.9494 0.7929 0.3065);
+    border: solid;
+    font-size: 20px;
+}
+.parg-neil{
+    font-family: Chalkboard;
+    font-size: 20px;
+    padding-left: 15px;
+    margin: auto;
+}
+.link{
+    color:color(srgb 0 0.2912 0.5613) ;
+}
+.under-neil{
+    margin-bottom: 18px;
+}
+.nichole-k{
+    border: solid;
+    border-color: black;
+    height: auto;
+    margin-bottom: 10px;
+}
+.top-nichole{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-nichole{
+    margin-left: 10px;
+
+}
+.likes-nichole{
+    font-family: Chalkboard;
+}
+.btn-nichole{
+    margin-right: 8px;
+    font-family:Chalkboard;
+    background-color: color(srgb 0.9494 0.7929 0.3065);
+    border: solid;
+    font-size: 20px;
+}
+.under-nichole{
+    margin-bottom: 18px;
+}
+.parg-nichole{
+    font-family: Chalkboard;
+    font-size: 20px;
+    padding-left: 15px;
+    margin: auto;
+}
+.jim-r{
+    border: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    height: auto;
+}
+.top-jim{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-jim{
+    margin-left: 10px;
+}
+.likes-jim{
+    font-family: Chalkboard;
+}
+.btn-jim{
+    margin-right: 8px;
+    font-family:Chalkboard;
+    background-color: color(srgb 0.9494 0.7929 0.3065);
+    border: solid;
+    font-size: 20px;
+}
+.under-jim{
+    margin-bottom: 18px;
+}
+.parg-jim{
+    font-family: Chalkboard;
+    font-size: 20px;
+    padding-left: 15px;
+    margin: auto;
+}

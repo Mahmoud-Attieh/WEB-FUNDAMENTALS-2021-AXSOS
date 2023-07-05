@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dojo">
+            <div class="dojo-weather">
+                <a class="weather" href="#"><strong>DojoWeather</strong></a>
+            </div>
+            <div class="right-top">
+                <a class="burbank" onclick="bu()" href="#" >Burbank</a>
+                <a class="chicago" onclick="ch()" href="#">Chicago</a>
+                <a class="Dallas"  onclick="da()" href="#">Dallas</a>
+            </div>
+        </div>
+        <div class="under-top">
+            <h1 class="san">San Jose</h1>
+            <div class="name-tem">
+                <label for="text" class="show">Show temperature in</label>
+                <select onchange="tempchange()" >
+                    <option value="celsius">°C</option>
+                    <option value="fahrenheit">°F</option>
+                </select>
+                <div class="line-top"></div>
+            </div>
+            <div class="under-con">
+                <div class="dy">
+                    <h1 class="day">Today</h1>
+                    <img src="some_rain.png" class="img" alt="some_rain.png">
+                    <p class="days-weather">some clouds</p>
+                    <div class="max-min">
+                        <label class="tem-max">24</label>
+                        <label class="tem-min">18</label>
+                    </div>
+                </div>
+                <div class="tom">
+                    <h1 class="day">Tomorrow</h1>
+                    <img src="some_sun.png" class="img" alt="some_sun.png">
+                    <p class="days-weather">some sun</p>
+                    <div class="max-min">
+                        <label class="tem-max">27</label>
+                        <label class="tem-min">19</label>
+                    </div>
+                </div>
+                <div class="fri">
+                    <h1 class="day">Friday</h1>
+                    <img src="some_clouds.png" class="img" alt="some_clouds.png">
+                    <p class="days-weather">some clouds</p>
+                    <div class="max-min">
+                        <label class="tem-max">21</label>
+                        <label class="tem-min">16</label>
+                    </div>
+                </div>
+                <div class="sat">
+                    <h1 class="day">Saturday</h1>
+                    <img src="some_sun.png" class="img" alt="some_sun.png">
+                    <p class="days-weather">some sun</p>
+                    <div class="max-min">
+                        <label class="tem-max">26</label>
+                        <label class="tem-min">21</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div id="footer">
+                <div>
+                    <div class="par">
+                        <img src="cookie.png" class="img-footer" alt="cookie.png">
+                        <p class="text"><span class="title"><strong>Stop! Cookie time</strong></span><br> cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#" class="read">Read more....</a></p>
+                    </div>
+                </div>
+                <button class="accept" onclick="accpet()">I Accept</button>
+            </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

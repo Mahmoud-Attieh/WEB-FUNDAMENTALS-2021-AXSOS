@@ -1,0 +1,135 @@
+.container{
+    width: 650px;
+    margin: auto;
+}
+.search-bar{
+    background-color:color(srgb 0.7568 0.7569 0.7569);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.dojonary{
+    font-family: Chalkboard;
+    font-size: 35px;
+    margin-top: 9px;
+    margin-left: 15px;
+}
+.login{
+    background-color:color(srgb 0.1701 0.4713 0.8952);
+    color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 10%;
+    height: 35px;
+    border-color: black;
+    border-style:solid;
+    font-family: Chalkboard;
+    font-size: 20px;
+}
+.text{
+    width: 40%;
+    height: 25px;
+    margin-top: 20px;
+    border-style: black;
+    border: solid;
+    margin-right: 20px;
+}
+.under-cont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.top{
+    border: solid;
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.right{
+    border: solid;
+    border-color: black;
+    width: 25%;
+    height: 110px;
+    padding-left: 14px;
+    font-family: Chalkboard;
+}
+.dojo-def{
+    padding-right: 15px;
+}
+
+.under{
+    border: solid;
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: Chalkboard;
+}
+.all-left{
+    width: 70%;
+}
+.parg-right{
+    font-family:Chalkboard ;
+    padding-left:15px ;
+}
+.top-likes{
+    background-color: color(srgb 0.9964 0.8478 0.4016);
+    color: black;
+    margin-bottom: 10px;
+    border: solid;
+    height: 30px;
+    width: 90px;
+    font-family: Chalkboard;
+    font-size: 16px;
+}
+.practitioner{
+    font-family:Chalkboard ;
+    font-size: 20px;
+}
+.parg-right-under{
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+.under-likes{
+    background-color: color(srgb 0.9964 0.8478 0.4016);
+    border: solid;
+    width: 90px;
+    height: 30px;
+    font-family: Chalkboard;
+    font-size: 16px;
+}
+.add{
+    background-color: color(srgb 0.5753 0.7692 0.4904);
+    border: solid;
+    color: black;
+    font-family: Chalkboard;
+}
+.line{
+    text-decoration: underline;
+    color: color(srgb 0.1405 0.4035 0.6196);
+}
+.noun-top{
+    padding-left: 14px;
+}
+.noun-under{
+    padding-left: 14px;
+}
+.practitioner{
+    padding-top: 30px;
+    font-size: 20px;
+}
+.parg-under{
+    padding-top: 30px;
+    font-size: 20px;
+    padding-left: 17px;
+}
+.parg-top{
+    padding-left: 17px;
+}
+.ninja-top, .ninja-under{
+    font-size: 30px;
+}

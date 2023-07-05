@@ -1,0 +1,167 @@
+.body {
+    background-color: #f3f3f3;
+    font-family: Geneva;
+}
+
+
+
+.user-card {
+    width: 450px;
+    height: 400px;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.top {
+    background-color: #17a2b8;
+    height: 90px;
+    margin-bottom: -7px;
+}
+.card-body {
+    padding: 20px;
+    margin-top: 20px;
+}
+/*.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    text-justify: auto;
+}*/
+
+.picture {
+    border-radius: 50%;
+    background-color: rgb(162, 162, 162);
+    height: 92px;
+    padding: 2px;
+    margin-top: 42px;
+    margin-left: 32px;
+}
+
+.icon {
+    height: 20px;
+}
+a {
+    color: #3a81e6;
+}
+.top-nav {
+    background-color: black;
+    color: #ffffff;
+    height: 60px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    font-family: 'Geneva';
+}
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content:space-evenly;
+    padding: 50px;
+}
+#active{
+    color: white;
+}
+.nav a {
+    color:rgb(191, 188, 188);
+    text-decoration: none;
+}
+.nav-title {
+    margin-left: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: Geneva;
+    
+}
+.btn {
+    height: 30px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    font-size: 16px;
+    box-shadow: 3px 3px #000000;
+    border-color: black;
+    font-family: Geneva;
+    border-style: solid;
+    
+}
+.btn{
+    margin-left: 15px;
+}
+
+.right-side{
+    border: 2.5px;
+    border-style: solid;
+    border-color: rgb(191, 188, 188);
+    background-color: white;
+    width: 230px;
+    height: 150px;
+    margin-left: 20px;
+    margin-bottom: 246px;
+    
+}
+
+.bigcontainer{
+    display: flex;
+    align-items: center;
+}
+.container{
+    margin-left: 180px;
+}
+.top-right{
+    background-color:rgb(56, 50, 50);
+    height: 38px;
+    width: 231px;
+    display: flex;
+}
+.num{
+    border:2px;
+    border-radius: 50%;
+    background-color:rgb(191, 188, 188);
+    height: 28px;
+    width: 28px;
+    margin-left: 10px;
+    margin-top: -34px;
+
+}
+.num-two{
+    margin-top: -26px;
+    margin-left: 19px;
+    font-family: Comic Sans MS;
+}
+.con-req {
+    margin-left: 40px;
+    margin-top: -35px;
+    color: white;
+    font-family: Monaco;
+}
+
+
+.pic{
+    height: 28px;
+    width: 28px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+.pic-down{
+    height: 28px;
+    width: 28px;
+    margin-top: 20px;
+    margin-left: 12px;    
+}
+.name-up{
+    margin-left: 13px;
+    margin-top: 15px;
+}
+.name-down{
+    margin-left: 13px;
+    margin-top: 15px;
+    
+}

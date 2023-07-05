@@ -1,0 +1,275 @@
+.body{
+    background-color: white;
+}
+.container{
+    display: flex;
+}
+.top-nav{
+    background-color: black;
+    width: 100%;
+    height: 55px;
+}
+.title{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: flex;
+}
+.profile{
+    margin-top: 2px;
+    font-family: Hiragino Maru Gothic ProN;
+}
+
+.my-profile{
+    padding-right: 10px;
+    font-family: Gill Sans;
+}
+.home, .find{
+    color: color(srgb 0.7568 0.7569 0.7569);
+    font-family: Gill Sans;
+    padding-right: 10px;
+}
+.my-profile{
+    padding-right: 10px;
+}
+
+
+.left-top{
+    display: flex;
+    align-items: center;
+    font-family: AppleGothic;
+}
+.links{
+    margin-bottom : 25px;
+}
+.btn{
+    font-family: Geneva;
+    height: 30px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    font-size: 16px;
+    box-shadow: 3px 3px #000000;
+    border-color: black;
+    font-family: Geneva;
+    border-style: solid;
+    margin-bottom:25px;
+}
+.down{
+    display: flex;
+    justify-content: center;
+}
+
+.user-card {
+    width: 450px;
+    height: 340px;
+    border: 2px solid #999;
+    justify-items:left;
+    margin-right: 25px;
+
+}
+
+.top-user{
+    height: 85px;
+    width: 450px;
+    background-color:#17a2b8;
+}.user-pic{
+    border-radius: 50%;
+    background-color: rgb(162, 162, 162);
+    height: 80px;
+    padding: 2px;
+    margin-top: 33px;
+    margin-left: 16px;
+}
+
+
+.user-name{
+    font-family: AppleGothic;
+    font-size: 25px;
+    padding-top:18px;
+    padding-left: 14px;
+}
+.location{
+    height: 20px;
+    
+}
+.city-name{
+    font-size: 20px;
+    padding-top:10px;
+    padding-left: 14px;
+    font-family: AppleGothic;
+}
+.user-edu{
+    font-size: 15px;
+    font-family:Comic Sans MS;
+    padding-top:10px;
+    padding-left: 14px;
+}
+
+.icon{
+    height: 30px;
+    padding-right: 10px;
+}
+.edit{
+    padding-left: 5px;
+}
+.user-right{
+    width: 200px;
+    height: 130px;
+    border: 2px solid #999;
+    justify-items:right;
+}
+.top-right{
+    background-color: rgb(51, 51, 51);
+    height: 35px;
+    display: flex;
+    padding-left: 8px;
+    font-family: AppleGothic;
+}
+
+
+.num-con{
+    display: flex;
+    padding-left: 2px;
+}
+.con-req{
+    margin-top:2px;
+    margin-left: 4px;
+    color: white;
+}
+.con{
+
+    margin-left: 4px;
+    margin-top:11px;
+    color: white;
+    font-size: 14px;
+}
+.con-number{
+    background-color:gray;
+    border-radius:24px;
+    height: 20px;
+    width: 20px;
+    margin-top: 8px;
+}
+
+.todd{
+    padding-top: 2px;
+    display: flex;
+}
+.phil{
+    display: flex;
+}
+.pic-right{
+    height: 20px;
+    width: 20px;
+    padding-right: 4px;
+}
+.name{
+    font-family: AppleGothic;
+    font-size: 17px;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.connection{
+    width: 200px;
+    height: 260px;
+    border: 2px solid #999;
+}
+.down-con{
+    background-color: rgb(51, 51, 51);
+    height: 35px;
+    display: flex;
+    padding-left: 8px;
+    font-family: AppleGothic;
+    color: #ffffff;
+}
+.req-num{
+margin-top: 5px;
+margin-left: 2px;
+
+
+}
+.req-con{
+    margin-top: 13px;
+    margin-left: 7px;
+}
+.num-bor{
+    background-color:gray;
+    border-radius:24px;
+    height: 20px;
+    margin-top: 10px;
+}
+.user{
+    height: 25px;
+    padding-right: 10px;
+}
+
+.friend{
+    padding-left: 5px;
+    font-family: Chalkboard;
+}
+.users{
+    font-size: 13px;
+
+}
+.under-bor{
+    background-color:gray;
+    height: 2px;
+}
+.view-more{
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-family: Gill Sans;
+}
+.edu{
+    width: 450px;
+    height: 340px;
+    border: 2px solid #999;
+    margin-top:20px;
+
+}
+.top-edu{
+    background-color:rgb(51, 51, 51);
+    height: 55px;
+    padding-top: 1px;
+    padding-left: 15px;
+    color: white;
+    font-family:DIN Alternate ;
+}
+.edu-info{
+    font-family:Gill Sans ;
+    padding-left: 10px;
+}
+.edu-info-date{
+    font-family:Gill Sans ;
+    color:gray;
+    padding-left: 10px;
+}
+
+.accpet{
+    width: 18px;
+    height: 24px;
+    padding-inline: unset;
+    margin-right: 15px;
+}
+.ignore{
+    width: 18px;
+    height: 24px;
+    padding-inline: unset;
+    margin-right: 15px;
+}
+.first-request{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.second-request{
+    padding-left: 10px;
+    padding-top: 10px;
+
+}

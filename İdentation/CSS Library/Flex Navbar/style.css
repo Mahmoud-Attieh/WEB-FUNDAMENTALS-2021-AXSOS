@@ -1,0 +1,51 @@
+
+
+.nav {
+    background-color: #333333;
+    color: #ffffff;
+    height: 80px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Geneva';
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+#active{
+    color: white;
+}
+
+.nav a {
+    color:rgb(191, 188, 188);
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: Geneva;
+    
+}
+
+
+.btn {
+    height: 30px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    font-size: 16px;
+    box-shadow: 3px 3px #000000;
+    border-color: black;
+    font-family: Verdana;
+    border-style: solid;
+    
+}
+

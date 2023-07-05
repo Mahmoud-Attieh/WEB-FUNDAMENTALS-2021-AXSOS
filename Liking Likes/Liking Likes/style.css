@@ -1,0 +1,32 @@
+.container{
+    width:600px;
+    margin: auto;
+}
+.user{
+    width: 70%;
+    border: solid;
+    border-color: black;
+    margin: auto;
+    font-family: Chalkboard;
+}
+.like{
+    background-color: color(srgb 0.9999 0.8517 0.4012);
+    color: black;
+    border: solid;
+    border-color: black;
+    width: 15%;
+    font-family: Chalkboard;
+    margin-top: 15px;
+    font-size: 17px;
+    height: 30px;
+}
+.span{
+    margin-top: 20px;
+}
+.some-user{
+    display: flex;
+    justify-content: space-around;
+}
+.name, .likes-time{
+    font-size: 20px;
+}

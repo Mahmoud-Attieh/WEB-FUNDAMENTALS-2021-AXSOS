@@ -1,0 +1,31 @@
+h1
+    {
+        background-color: black;
+        color: white;
+        font-family:'Courier New', Courier, monospace;
+    }
+#my{
+        color: cyan;
+    }
+#my{
+    padding-left: 0.8%;
+    padding-top: 0.5%;
+    /*font-family:'Courier New', Courier, monospace;*/
+}
+h2
+    {
+        background-color: rebeccapurple;
+        color: white;
+        font-style: italic;
+        text-align: center;
+    }
+h3
+    {
+        background-color: cadetblue;
+        text-decoration: underline;
+        text-align: right;
+    }
+    #con
+    {
+        padding-right: 0.8%;
+    }
